@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ARouter</string>
+    <string name="degrade_title">错误提示</string>
+    <string name="empty_action">刷新</string>
+
+
+    <string name="if_unexpected">&#xe692;</string>
+    <string name="degrade_tips">页面跑远了,开发小哥正在加急修复中...</string>
+</resources>

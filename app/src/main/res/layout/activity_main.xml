@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <com.hjq.shape.view.ShapeButton
+        android:id="@+id/actionUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="个人中心"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:shape="rectangle"
+        app:shape_radius="8dp"
+        app:shape_solidColor="#5A8DDF"
+        app:shape_solidPressedColor="#AA5A8DDF" />
+
+    <com.hjq.shape.view.ShapeButton
+        android:id="@+id/actionVip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="会员权益"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:shape="rectangle"
+        app:shape_radius="8dp"
+        app:shape_solidColor="#5A8DDF"
+        app:shape_solidPressedColor="#AA5A8DDF" />
+
+    <com.hjq.shape.view.ShapeButton
+        android:id="@+id/actionAuthentication"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="账户充值"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:shape="rectangle"
+        app:shape_radius="8dp"
+        app:shape_solidColor="#5A8DDF"
+        app:shape_solidPressedColor="#AA5A8DDF" />
+
+    <com.hjq.shape.view.ShapeButton
+        android:id="@+id/actionDegrade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="全局降级策略"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:shape="rectangle"
+        app:shape_radius="8dp"
+        app:shape_solidColor="#5A8DDF"
+        app:shape_solidPressedColor="#AA5A8DDF" />
+</LinearLayout>

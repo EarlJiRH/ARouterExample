@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/empty_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_computer" />
+
+    <TextView
+        android:id="@+id/empty_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:textColor="@color/martini"
+        android:textSize="16sp"
+        tools:text="虽然什么也没有,要不下拉刷新看看" />
+
+    <com.hjq.shape.view.ShapeButton
+        android:id="@+id/empty_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="@string/empty_action"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:visibility="gone"
+        app:shape="rectangle"
+        app:shape_radius="8dp"
+        app:shape_solidColor="#5A8DDF"
+        app:shape_solidPressedColor="#AA5A8DDF"
+        tools:visibility="visible" />
+</LinearLayout>

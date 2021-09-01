@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".route.DegradeGlobalActivity">
+
+    <per.goweii.actionbarex.common.ActionBarCommon
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        app:ab_autoImmersion="false"
+        app:ab_statusBarMode="dark"
+        app:ab_statusBarVisible="false"
+        app:ab_titleBarHeight="45dp"
+        app:abc_leftIconRes="@drawable/ic_back"
+        app:abc_titleText="@string/degrade_title"
+        app:abc_titleTextColor="@color/black"
+        app:abc_titleTextSize="16sp" />
+
+    <com.example.arouter.widget.EmptyView
+        android:id="@+id/emptyView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
