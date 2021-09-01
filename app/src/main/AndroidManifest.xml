@@ -11,7 +11,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".route.DegradeGlobalActivity"/>
-<!--        <activity android:name=".ui.VipActivity" />-->
+        <activity android:name=".ui.VipActivity" />
         <activity android:name=".ui.AuthenticationActivity" />
         <activity android:name=".ui.ProfileDetailActivity" />
         <activity android:name=".MainActivity">

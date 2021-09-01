@@ -30,7 +30,6 @@ class BizInterceptor : IInterceptor {
     }
 
     override fun process(postcard: Postcard?, callback: InterceptorCallback?) {
-        showToast("进入自定义页面拦截器中")
         val flag = postcard!!.extra
         //对flag与RouteFlag中的值进行与操作判断
         when {
